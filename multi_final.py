@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 
 # match_id 및 승패 정보 추출
-folder_path_laliga = "/Users/kyuhyeon/coding/python/Infophy_TeamProject/Laliga_10_21"
+folder_path_laliga = "./Laliga_10_21"
 json_files_laliga = [f for f in os.listdir(folder_path_laliga) if f.endswith(".json")]
 
 match_results = []
@@ -42,7 +42,7 @@ for filename in os.listdir(folder_path_laliga):
             }
             match_results.append(match_result)
 
-folder_path_events = "/Users/kyuhyeon/Documents/data/events"
+folder_path_events = ".data/events"
 
 # 데이터 저장용 리스트 초기화
 winning_pass_locations = []
