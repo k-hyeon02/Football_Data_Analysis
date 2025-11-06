@@ -3,8 +3,8 @@ import module.shot_map_def as sm
 import module.match_table as mt
 import module.eventchain_map as ec
 
-events_file_path = "/Users/kyuhyeon/Documents/data/events/3773457.json"
-lineup_file_path = "/Users/kyuhyeon/Documents/data/lineups/3773457.json"
+events_file_path = "./data/events/3773457.json"
+lineup_file_path = "./data/lineups/3773457.json"
 
 pnm.draw_pass_network(events_file_path, lineup_file_path, side="home")
 pnm.draw_pass_network(events_file_path, lineup_file_path, side="away")
