@@ -34,6 +34,7 @@ cd Football_Data_Analysis
 
 ### 2. 필요 라이브러리 설치
 
+```bash
 pip install -r requirements.txt
 
 ### 3. 데이터
