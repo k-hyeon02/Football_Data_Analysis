@@ -161,10 +161,11 @@ def draw_pass_network(events_file_path, lineup_file_path, side):
     plt.show()
 
 if __name__ == "__main__":
-    draw_pass_network("/Users/kyuhyeon/Documents/data/events/3773457.json",
-                    "/Users/kyuhyeon/Documents/data/lineups/3773457.json",
+    draw_pass_network("./data/events/3773457.json",
+                    "./data/lineups/3773457.json",
                     "home")
 
-    draw_pass_network("/Users/kyuhyeon/Documents/data/events/3773457.json",
-                    "/Users/kyuhyeon/Documents/data/lineups/3773457.json",
+    draw_pass_network("./data/events/3773457.json",
+                    "./data/lineups/3773457.json",
                     "away")
+
