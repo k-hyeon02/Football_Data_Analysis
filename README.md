@@ -68,12 +68,12 @@ Football-Data-Analysis/
 ├── multi_final.py      # 다수 경기 분석 스크립트
 │
 ├── module/             # 분석용 헬퍼 함수 모듈
-│   ├── eventchain_map.py      # 슛 이벤트 체인 시각화
-│   ├── heatmap.py             # 경기 데이터 히트맵 생성
-│   ├── match_table.py         # 단일 경기 통계 테이블 생성
-│   ├── pass_networkmap_def.py # 패스 네트워크 시각화
-│   ├── shot_map_def.py        # 슛 맵 시각화
-│   └── turnovermap.py         # 턴오버 맵 시각화
+│   ├── eventchain_map.py:      # 슛 이벤트와 직전의 키 패스(key pass)를 추적하여 공격 과정을 시각화
+│   ├── heatmap.py:             # 패스, 슛 등의 위치 데이터를 12x8 그리드로 비닝(binning)하여 히트맵 생성
+│   ├── match_table.py:         # 단일 경기의 'Match Statistics' 및 'Most Player' 통계 테이블 생성
+│   ├── pass_networkmap_def.py: # 선수 간의 패스 횟수를 기반으로 '패스 네트워크' 시각화
+│   ├── shot_map_def.py:        # 팀의 모든 슛 이벤트를 득점/유효슛/빗나간슛으로 구분하여 '슛 맵' 생성
+│   └── turnovermap.py:         # 실패한 패스, 듀얼 패배 등 '턴오버' 발생 위치를 유형별로 시각화
 │
 ├── data/               # 원본 데이터 (JSON) - (직접 구성 필요)
 │   ├── events/
