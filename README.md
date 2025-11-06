@@ -82,7 +82,6 @@ Football-Data-Analysis/
 │
 ├── Laliga_10_21       # 스페인 라리가 2010~2021 경기 데이터 - 다수 경기 분석에 활용
 │
-├── outputs/            # 분석 결과(이미지) 저장 (Git 무시됨)
 │
 └── presentation/       # 최종 발표 PPT
-    └── 정보물리 최종발표 (2).pptx
+    └── football_analysis.pptx
