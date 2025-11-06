@@ -119,7 +119,7 @@ def extract_turnover_data(events_file_path, side):
     
     return failed_passes_location, lost_duels_location, dribble_losts_location, team_name, side
 
-events_file_path = "C:/Users/user/local/GitHub/open-data/data/events/3773457.json"
+events_file_path = "./data/events/3773457.json"
 
 if __name__ == '__main__':
     # 축구 필드 그리기
@@ -181,4 +181,5 @@ if __name__ == '__main__':
     ax.legend(loc = 'upper right')
     plt.title(f"{team_name} Turnover Map", fontsize=14)
     plt.axis("off")
+
     plt.show()
