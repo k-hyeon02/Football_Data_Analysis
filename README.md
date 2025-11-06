@@ -68,9 +68,21 @@ Football-Data-Analysis/
 ├── multi_final.py      # 다수 경기 분석 스크립트
 │
 ├── module/             # 분석용 헬퍼 함수 모듈
+│   ├── eventchain_map.py      # 슛 이벤트 체인 시각화
+│   ├── heatmap.py             # 경기 데이터 히트맵 생성
+│   ├── match_table.py         # 단일 경기 통계 테이블 생성
+│   ├── pass_networkmap_def.py # 패스 네트워크 시각화
+│   ├── shot_map_def.py        # 슛 맵 시각화
+│   └── turnovermap.py         # 턴오버 맵 시각화
 │
-├── data/               # 원본 데이터 (JSON)
+├── data/               # 원본 데이터 (JSON) - (직접 구성 필요)
+│   ├── events/
+│   ├── lineups/
+│   └── matches/
 │
-├── outputs/            # 분석 결과(이미지) 저장
+├── Laliga_10_21       # 스페인 라리가 2010~2021 경기 데이터 - 다수 경기 분석에 활용
+│
+├── outputs/            # 분석 결과(이미지) 저장 (Git 무시됨)
 │
 └── presentation/       # 최종 발표 PPT
+    └── 정보물리 최종발표 (2).pptx
