@@ -36,6 +36,7 @@ cd Football_Data_Analysis
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. 데이터
 
@@ -49,12 +50,15 @@ Note: 본 레포지토리에는 용량 문제로 원본 데이터 파일이 포�
 
 ### 4. script 실행
 * 단일 경기 분석(single_final.py) - (ex. ID: 3773457)
+  ```bash
   python single_final.py
-  
+  ```
 * 다수 경기 분석(multi_final.py)
+  ```bash
   python multi_final.py
-
+  
 ## 📁 프로젝트 구조
+```bash
 Football-Data-Analysis/
 │
 ├── README.md           # 프로젝트 설명
