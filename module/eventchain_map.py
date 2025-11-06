@@ -189,8 +189,9 @@ def draw_event_chain(events_file_path, lineup_file_path, side):
 
 if __name__ == "__main__":
     # 이벤트 파일 경로 입력
-    events_file_path = "C:/Users/user/local/GitHub/open-data/data/events/3773457.json"
-    lineup_file_path = "C:/Users/user/local/GitHub/open-data/data/lineups/3773457.json"
+    events_file_path = ".data/events/3773457.json"
+    lineup_file_path = ".data/lineups/3773457.json"
     # 함수 호출
     draw_event_chain(events_file_path,lineup_file_path, 'home')
     draw_event_chain(events_file_path,lineup_file_path, 'away')
+
