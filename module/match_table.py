@@ -284,7 +284,7 @@ def extract_record_data(events_file_path):
 
 if __name__ == "__main__":
     # 파일 경로
-    events_file_path = "/Users/kyuhyeon/Documents/data/events/3773457.json"
+    events_file_path = "./data/events/3773457.json"
 
     # 데이터 추출
     teams, team_names, possession_percentages = extract_match_data(events_file_path)
@@ -294,3 +294,4 @@ if __name__ == "__main__":
 
     # most player
     extract_record_data(events_file_path)
+
